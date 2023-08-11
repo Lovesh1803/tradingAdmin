@@ -1,0 +1,30 @@
+.create-contract {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.validity-text-wrapper {
+  width: 90%;
+}
+
+.validity__label {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.validity-inputs-wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.validity-input,
+.validity-select {
+  width: 48%;
+}

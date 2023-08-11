@@ -1,0 +1,37 @@
+.pendingContract {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+  }
+  
+  .pendingContract__header {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background: #e7e7e7;
+    /* padding: 0.5rem; */
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #747474;
+  }
+  
+  .pendingContract__breadcrumb {
+    font-size: 1rem;
+    color: white;
+    margin-left: 0.5rem;
+  }
+  
+  .pendingContract__button-wrapper {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 16rem;
+  }
+  
+  .pendingContract__content {
+    margin: 0.5rem;
+    overflow-y: auto;
+  }
+  

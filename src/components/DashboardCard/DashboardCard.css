@@ -1,0 +1,18 @@
+.dashboardCard {
+  width: 15rem;
+  height: 8rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  background: linear-gradient(
+    38deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(20, 20, 138, 1) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: wheat;
+  cursor: pointer;
+}
